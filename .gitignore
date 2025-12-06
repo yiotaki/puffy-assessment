@@ -1,0 +1,17 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore local outputs
+output/
+*.xlsx
+*.csv
+*.parquet
+
+# Ignore data
+data/raw/
+data/example_data/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
