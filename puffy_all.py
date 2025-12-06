@@ -39,19 +39,23 @@ import matplotlib.pyplot as plt
 CONFIG = {
     # --------- RAW MERGE INPUT / OUTPUT ----------
     # Folder where your raw daily CSVs live
-    "INPUT_FOLDER": r"C:\puffy\puffy_data",              # raw daily csvs
+   "INPUT_FOLDER": "data/raw",
+
+
 
     # Path where the merged CSV will be written
-    "OUTPUT_FILE": r"C:\puffy\puffy_files\merged.csv",   # merged csv
+    "OUTPUT_FILE": "output/merged.csv",  # merged csv
 
-    # Alias used by ETL block (kept for compatibility)
-    "INPUT_MERGED_FILE": r"C:\puffy\puffy_files\merged.csv",
+
+
+    # Alias used by ETL block (kept for compatibility)00
+    "INPUT_MERGED_FILE": "output/merged.csv",
 
     "CLEANED_SUBFOLDER": "cleaned_exports",
     "QA_FILENAME": "qa_results.xlsx",
 
     # --------- ETL / JOURNEY / ATTRIBUTION / ANALYSIS OUTPUT ROOT ----------
-    "BASE_OUTPUT_FOLDER": r"C:\puffy\puffy_outputs",
+    "BASE_OUTPUT_FOLDER": "output",
     "ETL_SUBFOLDER": "etl",
     "JOURNEY_SUBFOLDER": "journey",
     "ATTRIBUTION_SUBFOLDER": "attribution",
